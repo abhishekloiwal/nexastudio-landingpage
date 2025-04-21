@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <rect width="512" height="512" rx="100" fill="url(#paint0_linear)" />
+  
+  <!-- N letter -->
+  <path d="M154 135H194L358 377H318L154 135Z" fill="white"/>
+  <path d="M154 377V135H194V377H154Z" fill="white"/>
+  <path d="M318 377V135H358V377H318Z" fill="white"/>
+  
+  <!-- Accent dot/circle -->
+  <circle cx="400" cy="140" r="30" fill="#d946ef" />
+  
+  <!-- Define the gradient -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0ea5e9" />
+      <stop offset="1" stop-color="#8b5cf6" />
+    </linearGradient>
+  </defs>
+</svg>
